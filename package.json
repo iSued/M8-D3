@@ -1,0 +1,31 @@
+{
+  "name": "M6-D2-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon -r dotenv/config ./src/server.js",
+    "debug": "nodemon --inspect -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSued/M6-D2-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSued/M6-D2-Backend/issues"
+  },
+  "homepage": "https://github.com/iSued/M6-D2-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "mongoose": "^5.11.11",
+    "nodemon": "^2.0.7"
+  }
+}
