@@ -5,7 +5,7 @@ const listEndpoints = require("express-list-endpoints");
 const mongoose = require("mongoose");
 
 const articleRouter = require("./services/articles/index");
-const authorsRouter = require("./services/authors/index");
+const usersRouter = require("./services/users/index");
 
 const {
   notFoundHandler,
@@ -24,7 +24,7 @@ server.use(express.json());
 server.use(cors());
 
 server.use("/articles", articleRouter);
-server.use("/authors", authorsRouter);
+server.use("/users", usersRouter);
 
 // ERROR HANDLERS MIDDLEWARES
 

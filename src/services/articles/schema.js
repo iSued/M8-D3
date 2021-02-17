@@ -28,7 +28,7 @@ const ArticleSchema = new Schema(
         lowercase: true,
       },
     },
-    author: { type: Schema.Types.ObjectId, ref: "Author" },
+    author: { type: Schema.Types.ObjectId, ref: "user" },
 
     cover: {
       type: String,

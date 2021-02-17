@@ -11,21 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iSued/M6-D2-Backend.git"
+    "url": "git+https://github.com/iSued/M8-D3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iSued/M6-D2-Backend/issues"
+    "url": "https://github.com/iSued/M8-D3/issues"
   },
-  "homepage": "https://github.com/iSued/M6-D2-Backend#readme",
+  "homepage": "https://github.com/iSued/M8-D3#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-list-endpoints": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.11",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "query-to-mongo": "^0.10.1"
   }
 }

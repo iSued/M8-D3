@@ -6,7 +6,7 @@ const ArticlesRouter = express.Router();
 // Only articles
 ArticlesRouter.get("/", async (req, res, next) => {
   try {
-    const articles = await ArticlesSchema.find().populate("author");
+    const articles = await ArticlesSchema.find().populate("user");
     res.send(articles);
   } catch (error) {
     next(error);
